@@ -1,0 +1,68 @@
+* {
+  color: black;
+}
+.promise {
+  padding: 2rem 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  gap: 0.25rem;
+}
+.promise .rectangle {
+  width: 28px;
+  height: 1px;
+  border-radius: 3px 0px 0px 0px;
+  background: #a7dfb1;
+}
+.promise .promise-text {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  text-align: left;
+  width: 356px;
+  height: 22px;
+}
+.big-text{
+  float: left;
+  padding: 3rem;
+}
+h2 {
+  font-family: Gilroy;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 64.8px;
+  text-align: left;
+  width: 805px;
+  height: 195px;
+  padding: 0.5rem;
+}
+.inside-row {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 4rem 6rem;
+}
+.inside-row .column1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.inside-row .column1 .ellipse {
+  width: 4rem;
+  height: 5rem;
+}
+.inside-row .column1 p {
+  width: 10rem;
+  height: 6rem;
+  font-family: Montserrat;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 2rem;
+  text-align: left;
+  color: black;
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    color: #333;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 59px;
+     /* Adjust based on your logo size */
+    margin-right: 10px;
+}
+
+.site-text {
+    width: 30%;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.28px;
+    text-align: left;
+}
+
+.nav-center {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: HelveticaNeueCyr;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15.92px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.nav-links li {
+    margin: 0 10px;
+    position: relative;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.nav-right span #phone{
+    color: black;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.78px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.nav-right span #phone{
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.26px;
+    text-align: left;
+    color: black;
+}
+@media (max-width:759px){
+    .nav-center{
+        display: none;
+    }
+}
