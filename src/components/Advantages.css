@@ -1,0 +1,54 @@
+.advan-container{
+    margin-top: 100px;
+    text-align: center;
+}
+.advan-img{
+    background-color:  rgb(218, 208, 227);
+    border-radius: 50%;
+    width: 103px;
+    height: 103px;
+    margin-top: 50px;
+}
+.advan-list{
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+.advan-item{
+    width: 350px;
+}
+.advan-text{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 18.82px;
+    font-family: "Gilroy-Bold" ,sans-serif;
+    font-weight: 400;
+    height: 46px;
+    width:  289.17px;
+    line-height: 23.3px;
+    text-align: center;
+}
+.advan-btn{
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 1px solid rgb(127, 127, 222);
+    padding: 10px 25px;
+    background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Gill Sans" ,sans-serif;
+    line-height: 21.47px;
+    letter-spacing: 0.01em;
+    margin-left: 500px;
+}
+.advan-btn:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+.advan-input{
+    width: 300px;
+}

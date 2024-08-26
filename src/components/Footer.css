@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.footer__link{
+    display: flex;
+    gap: 36px;
+}
+.footer__social{
+    display: flex;
+    gap: 24px;
+}
+.footer__link a{
+    text-decoration: none;
+    color:#FFFF;
+    font-family: "PublicSans" ,sans-serif;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: -0.10769230872392654px;
+    text-align: left;     
+}
+.footer__link a:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}

@@ -1,68 +1,83 @@
-* {
-  color: black;
-}
-.promise {
-  padding: 2rem 0.8rem;
+.home-container{
   display: flex;
-  justify-content: center;
   align-items: center;
-  float: left;
-  gap: 0.25rem;
+  position: relative;
 }
-.promise .rectangle {
-  width: 28px;
-  height: 1px;
-  border-radius: 3px 0px 0px 0px;
-  background: #a7dfb1;
+.home-list1{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
-.promise .promise-text {
-  font-family: Montserrat;
+.home-text{
+  margin-top: 20px;
+  width: 356px;
+  height: 22px;
   font-size: 18px;
+  font-family: "Montserrat" ,sans-serif;
   font-weight: 400;
   line-height: 21.94px;
   text-align: left;
-  width: 356px;
-  height: 22px;
 }
-.big-text{
-  float: left;
-  padding: 3rem;
-}
-h2 {
-  font-family: Gilroy;
-  font-size: 54px;
+.home-title{
+  margin-top: 20px;
+  width: 805px;
+  height: 195px;
+  font-size: 50px;
+  font-family: "Gilroy" ,sans-serif;
   font-weight: 400;
   line-height: 64.8px;
   text-align: left;
-  width: 805px;
-  height: 195px;
-  padding: 0.5rem;
-}
-.inside-row {
-  float: left;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
-  padding: 4rem 6rem;
-}
-.inside-row .column1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-.inside-row .column1 .ellipse {
-  width: 4rem;
-  height: 5rem;
-}
-.inside-row .column1 p {
-  width: 10rem;
-  height: 6rem;
-  font-family: Montserrat;
-  font-size: 1.75rem;
-  font-weight: 400;
-  line-height: 2rem;
-  text-align: left;
   color: black;
+  margin-bottom: 20px;
+}
+.home-benefit1{
+  width: 200px;
+  height: 66px;
+  line-height: 21.94px;
+  margin-top: 50px;
+  font-family: "Montserrat" ,sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  text-align: left;
+}
+.home-benefit2{
+  margin-top: 50px;
+  width: 283px;
+  height: 66px;
+  font-size: 18px;
+  font-family: "Montserrat" ,sans-serif;
+  font-weight: 400;
+  text-align: left;
+  line-height: 21.94px;
+  color: #333;
+}
+.home-btn{
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid rgb(127, 127, 222);
+  padding: 15px 25px;
+  background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
+  color: #fff;
+  font-family:  Gill Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.47px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.home-btn:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.home-img{
+  margin-top: 40px;
+}
+.home-backImg{
+  width: 1415px;
+  height: 700px;
+  position: absolute;
+  top: 80px;
+  left: 400px;
 }

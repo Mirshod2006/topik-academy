@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.scholarship-list{
+    list-style: none;
+}
+.scholarship-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 40px;
+}
+.scholarship-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.container-left {
+  width: 483px;
+  height: 374px;
+  justify-self: center;
+}
+.container-left img {
+  width: 483px;
+  height: 374px;
+  opacity: 0.9;
+}
