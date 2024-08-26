@@ -11,6 +11,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import FormControl from 'react-bootstrap/FormControl';
+import axios from 'axios';
 
 export const Advantages = () =>{
     const [name, setName] = useState();
@@ -22,13 +23,10 @@ export const Advantages = () =>{
             chatId = 6801934716;
         const url = `https://api.telegram.org/bot${token}/sendMessage`
         const message = `Name : ${name}\n Phone : ${number}`
-        fetch(
+        axios(
             url,{
                 method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
+                body: JSON.stringify({
                 "chat_id": chatId,
                 "text": message
             })

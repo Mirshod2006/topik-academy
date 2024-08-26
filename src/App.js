@@ -8,8 +8,8 @@ import { StudyAid } from './components/StudyAid.js';
 import { Courses } from './components/Courses.js';
 import { Pros } from './components/Pros.js';
 import FAQ from './components/FAQ.js';
-import  Send  from './components/Send.js';
 import Footer from './components/Footer.js';
+import SendMessage from './components/Send.js';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Courses/>
         <Pros/>
         <FAQ/>
-        <Send/>
+        <SendMessage/>
         <Footer/>
     </div>
   );

@@ -1,3 +1,7 @@
+.send-question{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
 .send-question__container{
     border-radius: 20px;
     background: linear-gradient(90deg, rgba(125, 202, 199, 0.442) 0%, rgba(197, 242, 203, 0.1365) 129.2%);
@@ -7,12 +11,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    gap: 70px;
+    gap: 100px;
 }
 .send-question__title{
     width: 241px;
     height: 128px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
     font-family: "Gilroy-Medium" ,sans-serif;
     text-align: left;
@@ -31,17 +35,27 @@
 }
 .input-number{
     background: rgb(182, 226, 182);
-    width: 300px;
-    height: 30px;
+    width: 350px;
+    height: 60px;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 .input-name{
     background: rgb(182, 226, 182);
-    width: 300px;
-    height: 30px;
+    width: 350px;
+    height: 60px;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 .button{
-    width: 300px;
-    height: 45px;
+    width: 200px;
+    height: 60px;
     background: rgba(27, 153, 27, 0.764);
     color: #FFFF;
+    border-radius: 10px;
+}
+.button:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+    background: rgba(122, 226, 122, 0.764);
 }
